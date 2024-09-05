@@ -1,11 +1,9 @@
-/* Basic Reset */
+
 body, h1, input, button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* General Body Styling */
 body {
     background: lightgrey;
     font-family: 'Roboto', sans-serif;
@@ -32,7 +30,7 @@ h1 {
     font-weight: 700;
 }
 
-/* Search Section Styling */
+
 .search {
     display: flex;
     align-items: center;
@@ -93,19 +91,19 @@ h1 {
 .items {
     flex: 1;
     padding: 12px;
-    border: 2px solid #ccc; /* Increased border width */
-    border-radius: 5px; /* Slightly smaller border radius */
-    background: #e6e6e6; /* Lighter background color */
-    font-size: 1.1rem; /* Slightly larger font size */
-    color: #333; /* Text color */
-    outline: none; /* Remove outline on focus */
-    transition: border-color 0.3s ease, background 0.3s ease; /* Smooth transition */
+    border: 2px solid #ccc; 
+    border-radius: 5px;
+    background: #e6e6e6; 
+    font-size: 1.1rem;
+    color: #333; 
+    outline: none; 
+    transition: border-color 0.3s ease, background 0.3s ease; 
 }
 
 /* Add focus effect to change border color and background */
 .items:focus {
-    border-color: rgb(4, 7, 8); /* Change border color on focus */
-    background: #f1f1f1; /* Change background on focus */
+    border-color: rgb(4, 7, 8); 
+    background: #f1f1f1; 
 }
 
 /* Styling for the delete button */
@@ -122,14 +120,14 @@ h1 {
     margin-right: 10px;
 }
 
-/* Delete button hover effect */
 .delete-btn:hover {
     color: #e63946;
 }
+
 /* Styling for the edit button */
 .edit-btn {
     position: absolute;
-    right: 40px; /* Adjust position to be left of the delete button */
+    right: 40px; 
     top: 50%;
     transform: translateY(-50%);
     background: transparent;
