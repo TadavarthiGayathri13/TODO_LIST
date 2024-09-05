@@ -16,7 +16,7 @@ document.getElementById('add-button').addEventListener('click', function () {
         // Create an edit button
         const editButton = document.createElement('button');
         editButton.className = 'edit-btn';
-        editButton.innerHTML = '<i class="fas fa-edit"></i>'; // Edit icon
+        editButton.innerHTML = '<i class="fas fa-edit"></i>'; 
         editButton.addEventListener('click', function () {
             if (newInput.readOnly) {
                 newInput.readOnly = false;  //editable
