@@ -1,0 +1,142 @@
+/* Basic Reset */
+body, h1, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styling */
+body {
+    background: lightgrey;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+/* Container Styling */
+.container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: whitesmoke;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* Search Section Styling */
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+/* Input Field Styling */
+.todo-input {
+    width: 100%;
+    max-width: 350px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+}
+
+/* Button Styling */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: darkgray;
+    color: black;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+    margin-left: 10px;
+}
+
+/* Button Hover Effect */
+.btn:hover {
+    background: lightgreen;
+}
+
+/* Items Container Styling */
+.items-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; /* Space between items */
+}
+
+/* Item Container Styling */
+.item-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+/* Styling for the input field inside the item */
+.items {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #ccc; /* Increased border width */
+    border-radius: 5px; /* Slightly smaller border radius */
+    background: #e6e6e6; /* Lighter background color */
+    font-size: 1.1rem; /* Slightly larger font size */
+    color: #333; /* Text color */
+    outline: none; /* Remove outline on focus */
+    transition: border-color 0.3s ease, background 0.3s ease; /* Smooth transition */
+}
+
+/* Add focus effect to change border color and background */
+.items:focus {
+    border-color: rgb(4, 7, 8); /* Change border color on focus */
+    background: #f1f1f1; /* Change background on focus */
+}
+
+/* Styling for the delete button */
+.delete-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* Delete button hover effect */
+.delete-btn:hover {
+    color: #e63946;
+}
+/* Styling for the edit button */
+.edit-btn {
+    position: absolute;
+    right: 40px; /* Adjust position to be left of the delete button */
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
