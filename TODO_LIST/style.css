@@ -87,6 +87,7 @@ h1 {
     background: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
+
 /* Styling for the input field inside the item */
 .items {
     flex: 1;
@@ -100,7 +101,6 @@ h1 {
     transition: border-color 0.3s ease, background 0.3s ease; 
 }
 
-/* Add focus effect to change border color and background */
 .items:focus {
     border-color: rgb(4, 7, 8); 
     background: #f1f1f1; 
